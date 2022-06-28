@@ -6,7 +6,6 @@ import Counter from '../component/AboutComponent/Counter';
 const About = () => {
     return (
         <div>
-            <h2>About comming soon</h2>
             <AboutBanner></AboutBanner>
             <AboutDetails/>
             <Counter/>
