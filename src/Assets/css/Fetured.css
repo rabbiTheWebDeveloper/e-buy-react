@@ -1,0 +1,118 @@
+#featured {
+    padding-top: 90px;
+}
+.heading h2 {
+    margin-top: 0;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+    color: #222222;
+    display: inline-block;
+    text-transform: capitalize;
+    position: relative;
+}
+.heading h2::before {
+	position: absolute;
+	content: '';
+	width: 170px;
+	height: 1px;
+	bottom: -14px;
+	left: 0;
+	background: #de4644;
+}
+.heading h2::after {
+	position: absolute;
+	content: '';
+	width: 90px;
+	height: 1px;
+	bottom: -20px;
+	left: 0;
+	background: #de4644;
+}
+.featured-filter {
+    padding-top: 60px;
+}
+.filter-button {
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    text-transform: capitalize;
+    color: #444444;
+    margin-bottom: 30px;
+    transition: all linear .3s;
+}
+.btn-default {
+	border-color: #fff;
+}
+.filter-button:hover {
+    color: #de4644;
+    background-color: transparent;
+    border-color: #fff;
+}
+.btn-default.focus, .btn-default:focus {
+	color: #de4644;
+	background-color: transparent;
+	border-color: transparent;
+}
+
+.port-image {
+    width: 100%;
+}
+.gallery_product {
+    margin-bottom: 30px;
+}
+.featured-product {
+    position: relative;
+    overflow: hidden;
+}
+.overlay2 {
+    background: rgba(0,0,0,0.8);
+    width: 0px;
+    height: 100%;
+    padding-top: 60px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: all linear .3s;
+    opacity: 0;
+}
+.overlay2 i {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    line-height: 50px;
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 34px;
+    transition: all linear .3s;
+}
+.overlay2 i:hover {
+    background: #de4644;
+    border-color: #de4644;
+}
+.gallery_product:hover .overlay2 {
+    opacity: 1;
+    width: 100px;
+}
+.feat-details p {
+    float: left;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    color: #222222;
+    font-weight: 500;
+    padding-top: 6px;
+    margin-bottom: 2px;
+    text-transform: capitalize;
+}
+.feat-details span {
+    float: right;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    color: #222222;
+    font-weight: 500;
+    padding-top: 6px;
+}
+.ratings i {
+    color: #de4644;
+}

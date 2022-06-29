@@ -4,7 +4,7 @@ import '../assets/css/Header.css';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css"
 import Slider from 'react-slick';
-import img from '../assets/images/banner1.jpg'
+import '../assets/css/Header.css';
 
 const Header = () => {
   const settings = {
@@ -20,7 +20,7 @@ const Header = () => {
         {/* <i className="fa fa-chevron-left prv-arrow" />
         <i className="fa fa-chevron-right nxt-arrow" /> */}
         <Slider {...settings} className="banner-slider">
-          <div className="banner-img" style={{background: 'url("https://i.ibb.co/6bv1LcC/banner1.jpg") no-repeat center', backgroundSize: 'cover'}}>
+          <div id='banner-img1' className="banner-img" style={{background: 'url("https://i.ibb.co/6bv1LcC/banner1.jpg") no-repeat center', backgroundSize: 'cover'}}>
             <div className="container">
               <div className="row">
                 <div className="col-md-5">

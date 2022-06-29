@@ -1,0 +1,37 @@
+#service {
+    background: #f1f1f1;
+    padding-top: 23px;
+    padding-bottom: 20px;
+}
+.service-mid{
+    border-left: 1px solid #ddd;
+     border-right: 1px solid #ddd;
+}
+.service-item h3 {
+    font-size: 24px;
+    color: #222222;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 0;
+    text-transform: capitalize;
+    transition: all linear .3s;
+}
+.service-item i {
+    font-size: 24px;
+    color: #222222;
+    transition: all linear .3s;
+}
+.service-item .rotat {
+    transform:rotateY(180deg);
+}
+.service-item p {
+    font-size: 14px;
+    color: #444444;
+    font-family: 'Raleway', sans-serif;
+    line-height: 24px;
+}
+.service-item:hover.service-item h3 {
+    color: #de4644;
+}
+.service-item:hover.service-item i {
+    color: #de4644;
+}
