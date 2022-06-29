@@ -1,15 +1,25 @@
 import React from 'react';
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css"
+import Slider from 'react-slick';
 import img1 from '../assets/images/latest1.jpg';
 import img2 from '../assets/images/latest2.jpg';
 import img3 from '../assets/images/latest3.jpg';
 import img4 from '../assets/images/latest4.jpg';
 
 const LatestProduct = () => {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 4,
+    slidesToScroll: 4
+  };
     return (
         <div>
             <section id="latest">
-        <i className="fa fa-chevron-left prv-arrow2" />
-        <i className="fa fa-chevron-right nxt-arrow2" />
+        {/* <i className="fa fa-chevron-left prv-arrow2" />
+        <i className="fa fa-chevron-right nxt-arrow2" /> */}
         <div className="container">
           <div className="row">
             <div className="latest-main">
@@ -17,6 +27,7 @@ const LatestProduct = () => {
                 <h2>latest Products</h2>
               </div>
               <div className="latest-item">
+                <Slider {...settings}>
                 <div className="gallery_product col-md-3">
                   <div className="featured-product">
                     <a href="product-details.html"><img src={img1} alt="featured-product-img" className="img-responsive" /></a>
@@ -143,6 +154,7 @@ const LatestProduct = () => {
                     <i className="fa fa-star-half" />
                   </div>
                 </div>
+                </Slider>
               </div>
             </div>
           </div>

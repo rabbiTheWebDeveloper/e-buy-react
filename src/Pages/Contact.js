@@ -1,4 +1,5 @@
 import React from 'react';
+import Brand from '../component/Brand';
 
 const Contact = () => {
     return (
@@ -68,6 +69,7 @@ const Contact = () => {
           </div>
         </section>
         {/* contact part End */}
+        <Brand></Brand>
         </div>
     );
 };

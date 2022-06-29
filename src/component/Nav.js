@@ -62,8 +62,8 @@ const Nav = () => {
                 Home
               </a>
               <ul>
-                <a className href="index.html">Home 1</a>
-                <a className href="index2.html">Home 2</a>
+                <Link className to="/home">Home 1</Link>
+                <Link className to="/home2">Home 2</Link>
               </ul>
             </li>
             <li className>
@@ -132,8 +132,8 @@ const Nav = () => {
                     Home
                   </a>
                   <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a className="dropdown-item" href="index.html">Home 1</a>
-                    <a className="dropdown-item" href="index2.html">Home 2</a>
+                    <Link className="dropdown-item" to="/home">Home 1</Link>
+                    <Link className="dropdown-item" to="/home2">Home 2</Link>
                   </div>
                 </li>
                 <li><Link className="dropdown-item" to="/about">About</Link></li>

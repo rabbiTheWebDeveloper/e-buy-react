@@ -1,4 +1,5 @@
 import React from 'react';
+import CountUp from 'react-countup';
 
 const Counter = () => {
     return (
@@ -12,7 +13,14 @@ const Counter = () => {
                 <div className="main_counter_content text-center white-text wow fadeInUp">
                   <div className="col-md-2">
                     <div className="single_counter p-y-2 m-t-1">
-                      <h2 className="statistic-counter">261</h2>
+                    <CountUp start={0} end={261} delay={0}>
+                          {({ countUpRef }) => (
+                            <div>
+                              <span className='fs-2' ref={countUpRef} />
+                            </div>
+                          )}
+                        </CountUp>
+                      {/* <h2 className="statistic-counter">261</h2> */}
                       <p>cup of tea</p>
                     </div>
                   </div>
