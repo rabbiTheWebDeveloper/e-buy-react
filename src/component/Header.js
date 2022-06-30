@@ -12,7 +12,7 @@ const Header = () => {
     infinite: true,
     speed: 500,
     slidesToShow: 1,
-    slidesToScroll: 1
+    slidesToScroll: 4
   };
     return (
         <div>
@@ -20,7 +20,7 @@ const Header = () => {
         {/* <i className="fa fa-chevron-left prv-arrow" />
         <i className="fa fa-chevron-right nxt-arrow" /> */}
         <Slider {...settings} className="banner-slider">
-          <div id='banner-img1' className="banner-img" style={{background: 'url("https://i.ibb.co/6bv1LcC/banner1.jpg") no-repeat center', backgroundSize: 'cover'}}>
+          <div id='banner-img1' className="banner-img" >
             <div className="container">
               <div className="row">
                 <div className="col-md-5">
@@ -35,7 +35,7 @@ const Header = () => {
               </div>
             </div>
           </div>
-          <div className="banner-img" style={{background: 'url(../../../assets/images/banner2.jpg) no-repeat center', backgroundSize: 'cover'}}>
+          <div id='banner-img2' className="banner-img">
             <div className="container">
               <div className="row">
                 <div className="col-md-5">
@@ -50,7 +50,7 @@ const Header = () => {
               </div>
             </div>
           </div>
-          <div className="banner-img" style={{background: 'url(../../../assets/images/banner3.jpg) no-repeat center', backgroundSize: 'cover'}}>
+          <div id='banner-img3' className="banner-img">
             <div className="container">
               <div className="row">
                 <div className="col-md-5">
@@ -65,7 +65,7 @@ const Header = () => {
               </div>
             </div>
           </div>
-          <div className="banner-img" style={{background: 'url(../../../assets/images/banner4.jpg) no-repeat center', backgroundSize: 'cover'}}>
+          <div id='banner-img4' className="banner-img">
             <div className="container">
               <div className="row">
                 <div className="col-md-5">

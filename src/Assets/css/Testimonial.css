@@ -1,0 +1,134 @@
+/*=======================
+    Testimonial Part 
+========================*/
+#testimonial {
+    padding-top: 90px;
+}
+.testimonial-bg {
+    background: url(../images/testimonial-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 60px;
+    padding-bottom: 100px;
+    position: relative;
+}
+.testimonial-bg:after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+}
+.heading3 {
+    padding-bottom: 65px;
+}
+.heading3 h2 {
+    margin-top: 0;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+    color: #222222;
+    text-transform: capitalize;
+    position: relative;
+    display: inline-block;
+    font-weight: 500;
+}
+.heading3 h2::before {
+	position: absolute;
+	content: '';
+	width: 110px;
+	height: 1px;
+	bottom: -14px;
+	left: 0;
+	background: #de4644;
+}
+.heading3 h2::after {
+	position: absolute;
+	content: '';
+	width: 55px;
+	height: 1px;
+	bottom: -20px;
+	left: 0;
+	background: #de4644;
+}
+.testimonial-main {
+    position: relative;
+    z-index: 999;
+}
+.test-img img {
+    border-radius: 50%;
+}
+.test-details h2 {
+    margin-top: 0;
+    margin-bottom: 4px;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 500;  
+}
+.test-details h3 {
+    margin-top: 0;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 10px;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.test-details p {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 24px;
+    color: #dddddd;
+    padding-bottom: 16px;
+}
+.test-details h4 {
+    font-size: 30px;
+    text-transform: capitalize;
+    font-family: 'Sacramento', cursive;
+    text-align: right;
+    color: #fff;
+    padding: 5px;
+}
+.nxt-arrow3 {
+    position: absolute;
+    right: 46.5%;
+    transform: translateX(46.5%;);
+    bottom: 60px;
+    z-index: 999;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #fff;
+    cursor: pointer;
+    transition:all linear .3s;
+}
+.prv-arrow3 {
+    position: absolute;
+    left: 46.5%;
+    transform: translateX(46.5%;);
+    bottom: 60px;
+    z-index: 999;
+    color: #fff;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #fff;
+    cursor: pointer;
+    transition:all linear .3s;
+}
+.nxt-arrow3:hover,
+.prv-arrow3:hover {
+    background: #de4644;
+    border-color: #de4644;
+    color: #fff;
+}

@@ -1,0 +1,157 @@
+
+
+
+
+
+.navbar-default {
+	background-color: #fff;
+	border-color: transparent;
+    transition: all linear .3s;
+}
+.navbar-fixed-bottom, .navbar-fixed-top {
+	padding-bottom: 20px;
+}
+.nav-wrapper {
+    height: auto!important;
+}
+.navbar-nav > li {
+	float: none;
+    display: inline-block;
+}
+.navbar-nav > li > a {
+	text-align: center;
+    padding-top: 25px;
+    
+}
+.navbar-default .navbar-nav > li > a {
+	font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #222222;
+    position: relative;
+    transition: all linear .3s;
+}
+.navbar-default .navbar-nav > li > a::after {
+	position: absolute;
+	content: '';
+	width: 22px;
+	height: 1px;
+	background: red;
+	bottom: -6px;
+	left: 16px;
+    opacity: 0;
+    transition: all linear .3s;
+}
+.navbar-default .navbar-nav > li > a::before {
+	position: absolute;
+	content: '';
+	width: 10px;
+	height: 1px;
+	background: red;
+	bottom: -10px;
+	left: 16px;
+    opacity: 0;
+    transition: all linear .3s;
+}
+.navbar-default .navbar-nav li.active a {
+    color: #de4644;
+	background-color: transparent;
+}
+.navbar-default .navbar-nav li.active a:focus {
+    background: transparent;
+    color: #de4644;
+}
+.navbar-default .navbar-nav li.active a:hover,.navbar-default .navbar-nav > li > a:hover {
+    background: transparent;
+    color: #de4644;
+}
+.navbar-default .navbar-nav .active a::after,
+.navbar-default .navbar-nav > li:hover a:after {
+    opacity: 1;
+}
+.navbar-default .navbar-nav .active a::before,
+.navbar-default .navbar-nav > li:hover a:before {
+    opacity: 1;
+}
+.navbar-nav {
+    float: left;
+	text-align: center;
+}
+.navbar-nav {
+	float: none;
+}
+.navbar-right {
+    margin-top: -40px;
+}
+.search-form .form-group {
+	margin-bottom: 0;
+}
+.tahsan {
+    margin-top: 15px;
+    padding-left: 30px
+}
+.navbar-default .navbar-right li span {
+    color: #de4644;
+}
+.has-feedback .form-control {
+	background-color: transparent;
+	border-color: #fff;
+	color: #444;
+	height: 30px;
+	border-radius: 0;
+}
+.search-form .form-group {
+  float: right !important;
+  transition: all 0.3s; 
+  border-radius 0;
+  width: 32px;
+  height: 32px;
+  background-color: #fff;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+}
+.search-form .form-group input.form-control {
+  padding-right: 20px;
+  border: 0 none;
+  background: transparent;
+  box-shadow: none;
+  display:block;
+}
+.search-form .form-group input.form-control::-webkit-input-placeholder {
+  display: none;
+}
+.search-form .form-group input.form-control::-moz-placeholder {
+  display: none;
+}
+.search-form .form-group input.form-control:-ms-input-placeholder {
+  display: none;
+}
+.search-form .form-group:hover,
+.search-form .form-group.hover {
+  width: 100%;
+  border-radius: 4px 25px 25px 4px;
+}
+.search-form .form-group span.form-control-feedback {
+  position: absolute;
+  top: -1px;
+  right: -2px;
+  z-index: 2;
+  display: block;
+  width: 34px;
+  height: 34px;
+  text-align: center;
+  color: #444444;
+  left: initial;
+  font-size: 14px;
+}
+.navbar-right > li {
+	float: left;
+}
+.navbar-right li  a {
+    color: #de4644;
+    text-decoration: none;
+}
+.has-feedback {
+	top: 8px;
+}

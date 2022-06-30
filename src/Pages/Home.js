@@ -7,6 +7,7 @@ import LatestProduct from '../component/LatestProduct';
 import Nav from '../component/Nav';
 import Newest from '../component/Newest';
 import Service from '../component/Service';
+import Testimonial from '../component/Testimonial';
 import Upcomming from '../component/Upcomming';
 
 const Home = () => {
@@ -18,6 +19,7 @@ const Home = () => {
             <Featured></Featured>
             <Upcomming></Upcomming>
             <LatestProduct></LatestProduct>
+            <Testimonial></Testimonial>
             <Blog></Blog>
             
         </div>

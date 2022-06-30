@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import logoss from '../assets/images/logo.png';
-import '../assets/css/Nav.css'
+// import '../assets/css/Nav.css'
 
 
 const Nav = () => {
